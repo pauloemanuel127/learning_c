@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-int A;
-int B;
-int prod;
+int A, B, prod;
 
 int main () {
 

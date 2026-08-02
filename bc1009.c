@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 char name[20];
-double salary;
-double sells;
-double bonus;
-double total;
+double salary, sells, bonus, total;
 
 int main () {
 

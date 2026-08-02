@@ -1,10 +1,6 @@
 #include <stdio.h>
 
-int A;
-int B;
-int C;
-int D;
-int diff;
+int A, B, C, D, diff;
 
 int main () {
 

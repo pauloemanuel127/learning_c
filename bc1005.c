@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-double A;
-double B;
-double media;
+double A, B, media;
 
 int main () {
 

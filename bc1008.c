@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-int number;
-int hours;
-double value;
-double salary;
+int number, hours;
+double value, salary;
 
 int main () {
 

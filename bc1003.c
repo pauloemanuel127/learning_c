@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-int A;
-int B;
-int soma;
+int A, B, soma;
 
 int main () {
 

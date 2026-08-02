@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-double A, R;
+double R, vol;
 double pi = 3.14159;
 
 int main () {
 
     scanf("%lf", &R);
-    
-    A = pi * (R*R);
-    
-    printf("A=%.4f\n", A);
+
+    vol = pi * (4.0/3) * (R*R*R);
+
+    printf("VOLUME = %.3f\n", vol);
 
     return 0;
 }
