@@ -1,15 +1,16 @@
 #include <stdio.h>
 
-double a;
-double b;
-double c;
+double A;
+double B;
+double media;
 
 int main () {
 
-    scanf("%lf", &a);
-    scanf("%lf", &b);
-    c = ((a * 3.5) + (b* 7.5)) / 11.0;
+    scanf("%lf", &A);
+    scanf("%lf", &B);
+    media = ((A * 3.5) + (B * 7.5)) / 11.0;
 
-    printf("MEDIA = %.5f\n", c);
+    printf("MEDIA = %.5f\n", media);
+
     return 0;
 }

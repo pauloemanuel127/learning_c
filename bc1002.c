@@ -1,15 +1,16 @@
 #include <stdio.h>
 
-double a;
+double A;
 double pi = 3.14159;
-double r;
+double R;
 
 int main () {
 
-    scanf("%lf", &r);
-    a = pi * (r*r);
+    scanf("%lf", &R);
     
-    printf("A=%.4f\n", a);
+    A = pi * (R*R);
+    
+    printf("A=%.4f\n", A);
 
     return 0;
 }
