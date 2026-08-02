@@ -3,7 +3,7 @@
 double A, B, C, areatri, areacirc, areatrap, areaquad, arearet;
 double pi = 3.14159;
 
-int main () {
+int main() {
 
     scanf("%lf %lf %lf", &A, &B, &C);
 

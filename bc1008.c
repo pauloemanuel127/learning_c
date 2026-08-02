@@ -3,7 +3,7 @@
 int number, hours;
 double value, salary;
 
-int main () {
+int main() {
 
     scanf("%d", &number);
     scanf("%d", &hours);

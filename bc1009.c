@@ -3,7 +3,7 @@
 char name[20];
 double salary, sells, bonus, total;
 
-int main () {
+int main() {
 
     scanf("%s", &name);
     scanf("%lf", &salary);

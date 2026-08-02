@@ -2,7 +2,7 @@
 
 int A, B, prod;
 
-int main () {
+int main() {
 
     scanf("%d", &A);
     scanf("%d", &B);

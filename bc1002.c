@@ -3,7 +3,7 @@
 double A, R;
 double pi = 3.14159;
 
-int main () {
+int main() {
 
     scanf("%lf", &R);
     

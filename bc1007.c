@@ -2,7 +2,7 @@
 
 int A, B, C, D, diff;
 
-int main () {
+int main() {
 
     scanf("%d", &A);
     scanf("%d", &B);

@@ -2,7 +2,7 @@
 
 double A, B, media;
 
-int main () {
+int main() {
 
     scanf("%lf", &A);
     scanf("%lf", &B);
