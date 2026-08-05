@@ -48,4 +48,5 @@ int main() {
         
         printf("%d leds\n", leds);
     }
+    return 0;
 }
