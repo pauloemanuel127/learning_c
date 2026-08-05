@@ -37,4 +37,5 @@ int main() {
         printf("Mary won %d times and John won %d times\n", mary, john);
     
     }
+    return 0;
 }   
