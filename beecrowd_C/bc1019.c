@@ -7,16 +7,16 @@ int main() {
 
   scanf("%d", &N);
 
-  while (N > 60) {
+  while (N >= 60) {
 
-    if (N > 3600) {
+    if (N >= 3600) {
 
       h += 1;
       N -= 3600;
 
     }
 
-    else if (N > 60) {
+    else if (N >= 60) {
 
       m += 1;
       N -= 60;
