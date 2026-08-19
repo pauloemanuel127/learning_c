@@ -37,7 +37,7 @@ int main() {
 
     if (troco > 0) {
 
-        printf("Troco = %d reais", troco);
+        printf("Troco = %d reais\n", troco);
     
     }
 
@@ -45,12 +45,12 @@ int main() {
 
         troco = troco * -1;
         
-        printf("Saldo insuficiente! Falta %d reais", troco);
+        printf("Saldo insuficiente! Falta %d reais\n", troco);
     }
     
     else {
 
-        printf("Deu certim!");
+        printf("Deu certim!\n");
     }
 
 }
