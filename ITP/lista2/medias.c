@@ -57,3 +57,8 @@ double calc_med(int arr[10], int type){
     return ret;
 
 }
+
+double calc_mederr(double med1, double med2, int type) {
+
+    
+}
