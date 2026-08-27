@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main(void) {
 
     int input;
     double arit_med = 0, geo_med = 1, harm_med = 0;
