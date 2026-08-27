@@ -29,4 +29,5 @@ int main() {
     printf("Média geométrica é %.2f\n", geo_med);
     printf("Erro médio é %.2f %\n ", err_med); 
 
+    return 0;
 }

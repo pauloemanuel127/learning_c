@@ -40,4 +40,6 @@ int main(void) {
             printf("%d não é Palíndromo e impar.\n", original);
         }
     }
+
+    return 0;
 }
