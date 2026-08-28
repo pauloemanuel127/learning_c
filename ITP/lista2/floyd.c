@@ -8,19 +8,13 @@ int main(void) {
     scanf("%d", &n);
     if (n > 0) {
 
-        for (int i = 1; i <= n; i ++) {
+        for (int i = 1; i <= n; i ++) { //iterador para realizar a quantidade de linhas
 
-            for (int j = 1; j <= i; j++) {
+            for (int j = 1; j <= i; j++) { //iterador para os numeros de cada linha
 
-                if (value < 10) {
-                    
-                    printf(" %d ", value);
-                    value += 1;
-                    continue;
-                }
-
-                printf("%d ", value);
+                printf("%2d ", value);
                 value += 1;
+                continue;
             }
 
             printf("\n");

@@ -10,9 +10,9 @@ int main(void) {
     scanf("%lf", &time);
     scanf("%lf", &atl_time);
 
-    while (atl_time > 0) {
+    while (atl_time > 0) { //verifica se o tempo feito pelo atleta é positivo antes de rodar o loop
 
-        if (atl_time <= time) {
+        if (atl_time <= time) {// testa se o tempo do atleta foi adequado para realizar o teste
 
             atl += 1;
         }
@@ -20,14 +20,14 @@ int main(void) {
         scanf("%lf", &atl_time);
     } 
 
-    if (atl > 0) {
+    if (atl > 0) { //verifica a quantidade de atletas para definir o numero de series
 
-        if (atl % 8 == 0) {
+        if (atl % 8 == 0) { //se o numero de atletas for multiplo de 8, então o numero de series sera exato
 
             series = atl / 8;
         }
 
-        else {
+        else { //se nao será o valor truncado da divisao do numero de atletas por 8 somado a 1
 
             series = (atl / 8) + 1;
         }
