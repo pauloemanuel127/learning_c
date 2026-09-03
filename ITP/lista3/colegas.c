@@ -13,6 +13,8 @@ int main(void) {
     scanf("%d %d", &num1, &num2);
 
     colegas(num1, num2);
+
+    return 0;
 }
 
 void colegas(int a, int b) {
