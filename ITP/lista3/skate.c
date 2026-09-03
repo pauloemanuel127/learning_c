@@ -8,10 +8,10 @@ int main(void) {
 
     int n1, n2, n3, An1, An2, An3, Bn1, Bn2, Bn3, Af, Bf;
 
-    for (int i = 0; i < 6; i++) {
+    for (int i = 0; i < 6; i++) { //iterador para receber as notas e já retornar o valor final de cada dia
         scanf("%d %d %d", &n1, &n2, &n3);
 
-        switch (i) {
+        switch (i) { //verifica em qual dia está em relação a cada competidor
 
             case 0:
                 An1 = score(n1, n2, n3);
@@ -47,7 +47,7 @@ int main(void) {
     return 0;
 }
 
-int mediana(int a, int b, int c) {
+int mediana(int a, int b, int c) { //encontra o valor que será o valor do meio das 3 notas
 
     int temp;
 
@@ -72,7 +72,7 @@ int mediana(int a, int b, int c) {
     return b;
 }
 
-int score(int a, int b, int c) {
+int score(int a, int b, int c) { //encontra o score
 
     if (a == b || a == c) {
         return a;
@@ -84,7 +84,7 @@ int score(int a, int b, int c) {
     else return mediana(a, b, c);
 }
 
-void campeao(int a, int b) {
+void campeao(int a, int b) { //identifica qual dos dois é o campeão e exibe a mensagem
 
     if (a == b) {
         printf("empate");
