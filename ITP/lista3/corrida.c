@@ -14,10 +14,10 @@ int main(void) {
 
 void alcancar(int x, int v1, int v2) {
 
-    if (v2 >= v1) {
+    if (v2 >= v1) { //verifica se a velocidade do amigo é maior
         printf("impossivel\n");
         return;
     }
 
-    printf("%ds\n", x / (v1 - v2));
+    printf("%ds\n", x / (v1 - v2)); //se nao for retorna o tempo que vai levar pra o amigo ser ultrapassado
 }
