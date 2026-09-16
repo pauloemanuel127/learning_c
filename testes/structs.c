@@ -6,9 +6,9 @@ typedef struct  { //Typedef dá nome à alguma estrutura, enumeração ou outros
     int preco;    //Struct funciona como classes de linguagens orientadas ao objeto, recebe atributos, porém não possui métodos.
     int quantidade;
     char nome[50];
-} produto;
+} Produto;
 
-void print_arr(produto vet[], int tam);
+void print_arr(Produto vet[], int tam);
 
 int main(void) {
     int n;
@@ -20,7 +20,7 @@ int main(void) {
         return 1;
     }
 
-    produto itens[max];
+    Produto itens[max];
     for (int i = 0; i < n; i++) {
         printf("Digite o nome do produto: ");
         scanf("%s", itens[i].nome);
@@ -38,7 +38,7 @@ int main(void) {
 
 }
 
-void print_arr(produto vet[], int tam) {
+void print_arr(Produto vet[], int tam) {
     printf("Estoque:\n");
 
     for (int i = 0; i < tam; i++) {
