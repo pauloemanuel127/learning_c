@@ -15,11 +15,11 @@ int main(void) {
 
     int result = simetrico(n, matriz); //resultado por bool, sendo 1 true 0 false
 
-    if (result == 0) {
-        printf("A matriz nao e simetrica");
+    if (result) {
+        printf("A matriz e simetrica");
     }
     else {
-        printf("A matriz e simetrica");
+        printf("A matriz nao e simetrica");
     }
 
     return 0;
