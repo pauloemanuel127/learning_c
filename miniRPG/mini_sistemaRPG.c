@@ -32,21 +32,21 @@ void view_char(Personagem character) {
 
     switch (character.tipo) {
         case AGUA:
-            printf("Elemento: Água\n");
+            printf("Tem magia do elemento: Agua\n");
             break;
         case TERRA:
-            printf("Elemento: Terra\n");
+            printf("Tem magia do elemento: Terra\n");
             break;
         case FOGO:
-            printf("Elemento: Fogo\n");
+            printf("Tem magia do elemento: Fogo\n");
             break;
         case AR:
-            printf("Elemento: Ar\n");
+            printf("Tem magia do elemento: Ar\n");
             break;
     }
 
-    printf("Está com %d de vida\n", character.vida);
-    printf("Nível: %d\n", character.nivel);
+    printf("Atualmente está nivel: %d\n", character.nivel);
+    printf("Possui %d de vida\n", character.vida);
 
     return;
 }
