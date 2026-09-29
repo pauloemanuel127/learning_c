@@ -9,15 +9,17 @@ int main(void) {
     fgets(str2, 50, stdin);
 
     //definição to tamanho da string 3
-    int total = (strlen(str1) - 1) + (strlen(str2) - 1);
-    char str3[total];
+    int len1 = strlen(str1) - 1;
+    int len2 = strlen(str2) - 1;
+    int total = len1 + len2;
+    char str3[total + 1];
 
     //iteração da string 3
-    for (int i = 0; i < strlen(str1) - 1; i++) {
+    for (int i = 0; i < len1; i++) {
         str3[i] = str1[i];
     }
     int indice = 0; //indice de apoio
-    for (int i = strlen(str1) - 1; i < total; i++) {
+    for (int i = len1; i < total; i++) {
         str3[i] = str2[indice];
         indice++;
     }
