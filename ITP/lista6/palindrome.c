@@ -11,7 +11,7 @@ int main(void) {
     fgets(str1, 50, stdin);
     str1[strlen(str1) - 1] = '\0';
 
-    //removendo as barras de espaço, usando 2 contadores
+    //removendo as barras de espaço, usando 2 contadores e um novo string auxiliar
     int j = 0;
     for (int i = 0; i < strlen(str1); i++) {
         if (str1[i] != ' ') {
