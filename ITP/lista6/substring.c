@@ -14,10 +14,10 @@ int main(void) {
 
     //verificação se é substring por meio da função strstr() que retorna o endereço de memoria onde a substring aparece
     if (strstr(str1, str2) != NULL) {
-        printf("É substring");
+        printf("É substring\n");
     }
     else {
-        printf("Não é substring");
+        printf("Não é substring\n");
     }
 
     return 0;
