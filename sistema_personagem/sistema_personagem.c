@@ -1,6 +1,6 @@
 #include "sistema_personagem.h"
 
-Personagem make_char(char name[30], Classes classe, Elementos type, int level, int hp) {
+Personagem make_char(char *name, Classes classe, Elementos type, int level, int hp) {
     Personagem x;
 
     strcpy(x.nome, name);
