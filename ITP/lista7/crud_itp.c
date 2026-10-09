@@ -7,13 +7,13 @@ typedef struct {
     char genero;
 } user;
 
-user criar(char *nome, int idade, char genero);
+user criar(char *nome, int idade, char genero); //cria a nova struct
 
-void inserir(user *array, user added);
+void inserir(user *array, user added); //insere o user no array
 
-void deletar(user *array, user deleted);
+void deletar(user *array, user deleted); //deleta o user selecionado
 
-void imprimir(user *array);
+void imprimir(user *array); //imprime o array
 
 int main(void) {
     user array[100] = {0};
@@ -22,7 +22,7 @@ int main(void) {
     int idade;
     char genero;
 
-    while (1) {
+    while (1) { //enquanto n foi solicitado pra imprimir recebe entradas
         scanf("%c", &escolha);
 
         if (escolha == 'i') {
