@@ -35,13 +35,15 @@ int main() {
 
     int tam_U = vetor_U.tam;
     if(tam_U == 0) {
-        printf("A uniao B == {vazio}\n");
+        printf("A união B == {vazio}\n");
     }
-    printf("A união B == {");
-    for(int i = 0; i < tam_U - 1; i++) {
-        printf("%d ", *(vetor_U.vetor+i));
+    else {
+        printf("A união B == {");
+        for(int i = 0; i < tam_U - 1; i++) {
+            printf("%d ", *(vetor_U.vetor+i));
+        }
+        printf("%d}\n", *(vetor_U.vetor+tam_U-1));
     }
-    printf("%d}\n", *(vetor_U.vetor+tam_U-1));
 
     int tam_I = vetor_I.tam;
     if(tam_I == 0) {
